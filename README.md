@@ -11,11 +11,13 @@ HDFS commander on Python 3
 
 ## Commands
 
-If you are in program, connection is successful. To successfully connect use `$ > python3 ./{hdfsagent.py} {ip} 50070 {username}`
+If you are in program, connection is successful. To successfully connect use `$ > python3 ./{hdfscommander.py} {ip} 50070 {username}`
 
 ### Available commands:
 
-- mkdir {dirname} {permissions in OCT} - Creating a HDFS directory in current path.
+- ? or help — Help page
+
+- mkdir {dirname} {permissions in OCT} — Creating a HDFS directory in current path.
 
 Example: `$ > mkdir newdirectory 755`
 
