@@ -205,7 +205,7 @@ def lcd(param):
 
 
 def help():
-    print('\n  TRN HADOOP FILE SYSTEM AGENT \n'
+    print('\n  TRN / WEBHDFS COMMANDER / HTTP REST API \n'
           '  If you are in program, connection is successful.\n'
           '  to successfully connect use > python3 ./{hdfsagent.py} {ip} 50070 {username}\n\n'
           '  '
@@ -235,51 +235,6 @@ def help():
           '        after changing directories (HDFS or LOCAL) type LS or LLS commands\n'
           '        for checking out paths to correct values.\n')
     menu()
-
-
-# def menu():
-#     print('\n\n\n PY MENU -> ')
-#     print(' - 1. MKDIR')
-#     print(' - 2. PUT')
-#     print(' - 3. GET')
-#     print(' - 4. APPEND')
-#     print(' - 5. DELETE')
-#     print(' - 6. LS')
-#     print(' - 7. CD')
-#     print(' - 8. LLS')
-#     print(' - 9. LCD')
-#     print(' - ')
-#     print(' - 0. QUIT')
-#     print('\n -> PATH: ' + current_path)
-#
-#     chs = input('\n\n Select procedure: ')
-#
-#     if chs == '1':
-#         mkdir()
-#     elif chs == '2':
-#         put()
-#     elif chs == '3':
-#         get()
-#     elif chs == '4':
-#         append()
-#     elif chs == '5':
-#         delete()
-#     elif chs == '6':
-#         ls()
-#     elif chs == '7':
-#         cd()
-#     elif chs == '8':
-#         lls()
-#     elif chs == '9':
-#         lcd()
-#     elif chs == '0':
-#         quit()
-#     else:
-#         execute = list(chs.split(sep=' '))
-#         if execute[0] == 'ls':
-#             ls()
-#         print(execute)
-#         menu()
 
 
 def menu():
