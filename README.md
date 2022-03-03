@@ -67,7 +67,7 @@ Example: `$ > lls`
 
 Example check out on `cd` command. All is the same.
 
-WARN! LOCAL and HDFS paths is global variable. For perfect working after changing directories (HDFS or LOCAL) type LS or LLS commands for checking out paths to correct values.
+WARN! LOCAL and HDFS paths are global variables. For perfect working after changing directories (HDFS or LOCAL) type LS or LLS commands for checking out paths to correct values.
 
 # Hadoop
 
