@@ -9,7 +9,7 @@ prog, server, port, user = argv
 # port = '50070'
 connstr = 'http://' + server + ':' + port + '/webhdfs/v1'
 # user = 'trn'
-current_path = '/user/trn/test/'
+current_path = '/user/' + user + '/'
 local_path = os.getcwd()
 
 
