@@ -1,7 +1,9 @@
 # WebHDFS-Commander
 HDFS commander on Python 3
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+![_-code-_-written-by-myself](https://user-images.githubusercontent.com/31628014/162436697-a87ec5fe-980c-4377-931f-f6f2e3eade8c.svg)
+
+[![made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 ## OS Compatibility
 
